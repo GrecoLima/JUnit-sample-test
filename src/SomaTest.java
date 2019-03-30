@@ -16,11 +16,13 @@ public class SomaTest {
 		//Dispara metodo da classe Soma passando.
 		float retornoFeito = Soma.ExecutaCalculo(passaValor1, passaValor2);
 		
-		/*
-		 * Esperado - valor mocado
+		/* Param
+		 * Esperado - valor mocado para teste
 		 * Atual - valor retornado pelo metodo testado
 		 * Delta - Valor maximo entre o esperado e o atual que pode ser considerado valido
 		 * */
+		
+		// Metodo para comparar dois valores.
 		assertEquals(retornoEsperado,retornoFeito,0);
 		
 	}
